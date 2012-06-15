@@ -1,0 +1,5 @@
+Simple Tic Tac Toe in C++ with gtkmm.
+
+Known "issues":
+The vectors store raw pointers instead of Glib::RefPtr or some sort of STL smart pointer.
+I like C and managing my own pointers so sue me eh?
